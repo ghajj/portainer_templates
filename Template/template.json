@@ -772,7 +772,7 @@
           "name": "PGID"
         }
       ],
-      "image": "linuxserver/duckdns",
+      "image": "lscr.io/linuxserver/duckdns:latest",
       "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/duckdns.png",
       "name": "duckdns",
       "note": "<b>Configuration</b></br>First, go to duckdns site, register your subdomain and retrieve your token<br/>Then run the docker create command above with your subdomain(s) and token<br/>It will update your IP with the DuckDNS service every 5 minutes",
